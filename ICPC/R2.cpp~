@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int first_num, mean;
+  cin >> first_num >> mean;
+  cout << mean * 2 - first_num << endl;
+  return 0;
+}
